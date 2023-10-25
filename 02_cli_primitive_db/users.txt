@@ -1,0 +1,6 @@
+{"first_name":"Sam","gender":"male","age":"31"}
+{"first_name":"Alex","gender":"male","age":"45"}
+{"first_name":"Danis","gender":"female","age":"56"}
+{"first_name":"Sam","gender":"female","age":"45"}
+{"first_name":"Zai","gender":"male","age":"33"}
+{"first_name":"Anatolii","gender":"male","age":"31"}
