@@ -15,19 +15,17 @@ program
     bot
       .sendMessage(CHAT_ID, message)
       .then(() => process.exit(0))
-      .catch((error) => console.log("Error sending your message:", error));
+      .catch((error) => console.log(error));
   });
 
 program
   .command("send-photo <path>")
-  .description(
-    "send photo to Telegram bot. Just drag and drop it console after p-flag"
-  )
+  .description("send photo to Telegram bot. Just drag and drop it to console")
   .action((path) => {
     bot
       .sendPhoto(CHAT_ID, path)
       .then(() => process.exit(0))
-      .catch((error) => console.log("Error sending your photo:", error));
+      .catch((error) => console.log(error));
   });
 
 program.parse(process.argv);
