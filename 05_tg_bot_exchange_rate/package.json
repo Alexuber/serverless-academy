@@ -1,5 +1,5 @@
 {
-  "name": "04_tg_bot_weather_forecast",
+  "name": "05_tg_bot_exchange_rate",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
