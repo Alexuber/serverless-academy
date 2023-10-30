@@ -1,5 +1,4 @@
 const readline = require("readline");
-const fs = require("fs").promises;
 
 const rl = readline.createInterface({
   input: process.stdin,
