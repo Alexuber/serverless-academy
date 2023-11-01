@@ -1,5 +1,3 @@
-const { errorMonitor } = require("events");
-
 const fs = require("fs").promises;
 
 async function convertJson() {
@@ -18,11 +16,13 @@ async function convertJson() {
       ],
     };
 
+    const vacation = {
+      startDate,
+      endDate,
+    };
+
     if (result[user._id]) {
-      result[user._id].vacations.push({
-        startDate: startDate,
-        endDate: endDate,
-      });
+      result[user._id].vacations.push(vacation);
     } else {
       result[user._id] = newData;
     }
